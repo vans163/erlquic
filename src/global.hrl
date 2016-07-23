@@ -1,0 +1,3 @@
+-ifndef(PRINT).
+-define(PRINT(Var), io:format("~p:~p - ~p~n", [?MODULE, ?LINE, Var])).
+-endif.
